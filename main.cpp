@@ -1,6 +1,12 @@
 #include <iostream>
+using namespace std;
 
 int main(){
-std::cout << "Hello, world!" << std::endl;
+int age;
+cout << "Hello, world!" << endl;
+cin >> age;
+
+cout << "Sua idade eh: << age << endl;
+
 return 0;
 }
